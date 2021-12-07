@@ -1,15 +1,15 @@
 import React from 'react'
-import { List, UserList, NavStyledContainer } from '../Styles/Nav.styled.js';
+import { List, UserList, NavStyledContainer, StyledLink } from '../Styles/Nav.styled.js';
 
 const Nav = () => {
     return (
         <NavStyledContainer>
             <UserList>
                 <List>
-                    Home
+                    <StyledLink to='/'>Home</StyledLink>
                 </List>
                 <List>
-                    Navbars
+                    <StyledLink to='/Navbars'>Navbars</StyledLink>
                 </List>
                 <List>
                     Buttons

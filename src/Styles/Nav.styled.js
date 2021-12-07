@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const NavStyledContainer = styled.div`
 display: flex;
@@ -19,6 +20,20 @@ margin: 10px;
 cursor: pointer;
 font-family: 'Bebas Neue', cursive;
 font-size: 150%;
+    &:visited {
+        text-decoration: none;
+    }
+    &:hover {
+        color: darkblue;
+    }
+`;
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;
+    &:visited {
+        text-decoration: none;
+        color: black;
+    }
     &:hover {
         color: darkblue;
     }

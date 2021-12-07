@@ -11,6 +11,7 @@ const Home = () => {
                 <SideUserList>
                     <NavList>Documentation</NavList>
                     <NavList>About The Project</NavList>
+                    <NavList>How To Get Involved</NavList>
                     <NavList>Contributors</NavList>
                     <NavList>FAQ</NavList>
                     <NavList>Github</NavList>
@@ -19,14 +20,14 @@ const Home = () => {
             </SideNav>
             <StyledContainer>
                 <ContentStyled>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget auctor quam. Nullam risus nunc, ornare sit amet magna et, luctus mattis ligula. Cras iaculis auctor libero, sed sodales ipsum hendrerit eget. Nulla tempor rutrum lorem eu bibendum. Morbi a ante consectetur ligula vehicula tristique. Nunc odio ligula, vehicula non euismod ut, interdum sed neque. Fusce eu pulvinar libero. Vestibulum pharetra id tortor in elementum. Sed sit amet lobortis lorem. Pellentesque et ipsum sed tellus volutpat congue ac quis est. Aliquam lacus ligula, cursus vel auctor sit amet, tincidunt fringilla sem.
+                    <p style={{fontSize: "120%"}}>
+                    The React Open Source Components, ROSCo, is a project undertaken initially by Richard Gonzalez and Mack Sawyer. The hopes of this project was to allow a reusable components library for other developers to reference and use to speedily build their React projects.
                     <br/>
                     <br/>
-                    Donec placerat egestas varius. Nunc pellentesque rutrum malesuada. Cras feugiat massa sit amet sapien blandit lobortis. In non nibh ut tortor porttitor blandit. Fusce sodales molestie nisl. Nam commodo, lectus vel pellentesque eleifend, neque tellus fringilla elit, sit amet auctor mi purus at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate mattis cursus. Quisque scelerisque aliquam elit ac placerat. Proin at magna non odio consequat dictum sed ut nisl. Sed maximus rhoncus nisi, quis egestas tortor commodo vel. Nam erat mi, eleifend ac mattis eu, suscipit eget nisl. Vestibulum et placerat eros, ut luctus mauris. Curabitur mauris risus, gravida ac tempor et, volutpat quis sem.
+                    This library was created with the full intent of allowing copy and paste code. The library itself was created using Styled Components and it is at the recommendation of the creators that Styled Components be used as well. The projects listed will show in-line code for ease of copy and paste usage but consider using your own CSS, SCSS, or Styled Component usage. If the project gains attention and traction it will be our desire to continue working on it full time and look into using NPM for dedicated usage.
                     <br/>
                     <br/>
-                    Ut eros ligula, euismod nec cursus eget, euismod scelerisque leo. Aliquam vel ligula placerat, placerat dui et, facilisis nunc. Vestibulum in arcu ipsum. Aenean tincidunt ex et leo semper tempus. Ut in fringilla tortor, sit amet viverra risus. Pellentesque ipsum ipsum, accumsan imperdiet commodo nec, tincidunt ut est. Suspendisse nec erat ut eros ultrices semper volutpat ut felis.
+                    The original contributors have created the base components and site structure but will rely on future contributors to assist in the growth of the site and it's resources. We will apply a general style to the components and look forward to what others will bring to the project.
                     </p>
                 </ContentStyled>
             </StyledContainer>
