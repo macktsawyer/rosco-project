@@ -3,6 +3,8 @@ import { StyledContainer } from '../Styles/Container.styled.js';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 
 const codeSample = `
+import React from 'react';
+
 const Nav = () => {
     return (
         <div style={{
