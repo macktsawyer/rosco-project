@@ -12,7 +12,7 @@ const Nav = () => {
                     <StyledLink to='/Navbars'>Navbars</StyledLink>
                 </List>
                 <List>
-                    Buttons
+                    <StyledLink to='/Buttons'>Buttons</StyledLink>
                 </List>
                 <List>
                     Forms

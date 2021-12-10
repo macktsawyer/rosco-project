@@ -30,6 +30,10 @@ font-size: 150%;
 
 export const StyledLink = styled(Link)`
     text-decoration: none;
+    &:link {
+        text-decoration: none;
+        color: black;
+    }
     &:visited {
         text-decoration: none;
         color: black;
