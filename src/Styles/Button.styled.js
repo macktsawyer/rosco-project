@@ -5,7 +5,7 @@ display: flex;
 justify-content: center;
 align-content: center;
 border: 1px solid black;
-border-radius: 5px;
+border-radius: 2px;
 background: #3578D9;
 color: white;
 width: 100px;
