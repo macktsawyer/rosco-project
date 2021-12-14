@@ -1,53 +1,63 @@
 import React from 'react';
 import { StyledContainer } from '../Styles/Container.styled.js';
+import { List, UserList, NavStyledContainer, StyledLink } from '../Styles/Nav.styled.js';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 
 const codeSample = `
 import React from 'react';
+import styled from 'styled-components';
+
+const NavStyledContainer = styled.div\`
+    display: flex;
+    justify-content: right;
+    min-width: 100vw;
+\`;
+
+const UserList = styled.ul\`
+    display: flex;
+    margin-right: 40px;
+\`;
+
+const List = styled.li\`
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150%;
+        &:link {
+            text-decoration: none;
+            color: black;
+            font-family: 'Bebas Neue', cursive;
+        }
+        &:visited {
+            text-decoration: none;
+        }
+        &:hover {
+            color: darkblue;
+        }
+\`;
 
 const Nav = () => {
     return (
-        <div style={{
-            display: flex;
-            justify-content: right;
-            min-width: 100vw;
-            }}>
-            <ul style={{
-            display: flex;
-            margin-right: 40px;}}>
-                <li style={{
-                    display: flex;
-                    list-style: none;
-                    display: inline-block;
-                    margin: 10px;
-                    cursor: pointer;}}>
-                    Home
-                </li>
-                <li style={{
-                    display: flex;
-                    list-style: none;
-                    display: inline-block;
-                    margin: 10px;
-                    cursor: pointer;}}>
-                    Link 1
-                </li>
-                <li style={{
-                    display: flex;
-                    list-style: none;
-                    display: inline-block;
-                    margin: 10px;
-                    cursor: pointer;}}>
-                    Link 2
-                </li>
-                <li style={{
-                    display: flex;
-                    list-style: none;
-                    display: inline-block;
-                    margin: 10px;
-                    cursor: pointer;}}>
-                    Link 3
-                </li>
-            </ul>
+        <div>
+            <NavStyledContainer>
+                <UserList>
+                    <List>
+                        <StyledLink>Home</StyledLink>
+                    </List>
+                    <List>
+                        <StyledLink>Page 2</StyledLink>
+                    </List>
+                    <List>
+                        <StyledLink>Page 3</StyledLink>
+                    </List>
+                    <List>
+                        Forms
+                    </List>
+                </UserList>
+            </NavStyledContainer>
         </div>
     )
 }
@@ -60,6 +70,22 @@ const Navbars = () => {
             <h3>Basic Top Nav Bar</h3>
             <StyledContainer className="center">
                 <StyledContainer>
+                    <NavStyledContainer className="center">
+                        <UserList>
+                            <List>
+                                Home
+                            </List>
+                            <List>
+                                Page 1
+                            </List>
+                            <List>
+                                Page 2
+                            </List>
+                            <List>
+                                Page 3
+                            </List>
+                        </UserList>
+                    </NavStyledContainer>
                     <SyntaxHighlighter>
                         {codeSample}
                     </SyntaxHighlighter>

@@ -5,6 +5,11 @@ export const NavStyledContainer = styled.div`
 display: flex;
 justify-content: right;
 min-width: 100vw;
+    &.center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 `;
 
 export const UserList = styled.ul`
@@ -13,7 +18,6 @@ margin-right: 40px;
 `;
 
 export const List = styled.li`
-display: flex;
 list-style: none;
 display: inline-block;
 margin: 10px;
@@ -33,12 +37,15 @@ export const StyledLink = styled(Link)`
     &:link {
         text-decoration: none;
         color: black;
+        font-family: 'Bebas Neue', cursive;
     }
     &:visited {
         text-decoration: none;
         color: black;
+        font-family: 'Bebas Neue', cursive;
     }
     &:hover {
         color: darkblue;
+        font-family: 'Bebas Neue', cursive;
     }
 `;

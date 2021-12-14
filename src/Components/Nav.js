@@ -15,7 +15,7 @@ const Nav = () => {
                     <StyledLink to='/Buttons'>Buttons</StyledLink>
                 </List>
                 <List>
-                    Forms
+                    <StyledLink to='/Forms'>Forms</StyledLink>
                 </List>
             </UserList>
         </NavStyledContainer>
