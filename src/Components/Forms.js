@@ -1,7 +1,7 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { StyledContainer } from '../Styles/Container.styled.js';
-import { StyledForm, StyledInput, StyledSubmit } from '../Styles/Forms.styled.js';
+import { StyledForm, StyledInput, StyledSubmit, StyledLabel } from '../Styles/Forms.styled.js';
 
 const sampleNav = 
 `
@@ -33,10 +33,20 @@ const StyledSubmit = styled.button\`
     width: 10%;
 \`;
 
+const StyledLabel = styled.label\`
+    color: #78aafa;
+\`;
+
+const handleSubmit = () => {
+    // Insert submission code here
+    console.log('Yay, submitted')
+}
+
+
 const Forms = () => {
     return (
         <div>
-            <StyledForm>
+            <StyledForm onSubmit={handleSubmit}>
                 <StyledInput placeholder="blah blah blah">
 
                 </StyledInput>
@@ -46,7 +56,7 @@ const Forms = () => {
                 <StyledInput placeholder="blah blah blah">
 
                 </StyledInput>
-                <StyledSubmit>
+                <StyledSubmit type="submit">
                     Submit
                 </StyledSubmit>
             </StyledForm>
@@ -58,23 +68,36 @@ export default Forms
 
 `
 
+const handleSubmit = () => {
+    console.log('Yay, submitted')
+}
+
 const Forms = () => {
     return (
         <div>
             <h3>Basic Forms</h3>
             <StyledContainer className="center">
                 <StyledContainer className="center">
-                    <StyledForm>
+                    <StyledForm onSubmit={handleSubmit}>
+                        <StyledLabel>
+                            Input
+                        </StyledLabel>
                         <StyledInput placeholder="blah blah blah">
 
                         </StyledInput>
+                        <StyledLabel>
+                            Input
+                        </StyledLabel>
                         <StyledInput placeholder="blah blah blah">
 
                         </StyledInput>
+                        <StyledLabel>
+                            Input
+                        </StyledLabel>
                         <StyledInput placeholder="blah blah blah">
 
                         </StyledInput>
-                        <StyledSubmit>
+                        <StyledSubmit type="submit">
                             Submit
                         </StyledSubmit>
                     </StyledForm>

@@ -24,3 +24,7 @@ export const StyledSubmit = styled.button`
     color: white;
     width: 10%;
 `;
+
+export const StyledLabel = styled.label`
+    color: #78aafa;
+`;
