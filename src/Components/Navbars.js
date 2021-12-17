@@ -1,11 +1,12 @@
 import React from 'react';
 import { StyledContainer } from '../Styles/Container.styled.js';
-import { List, UserList, NavStyledContainer, StyledLink } from '../Styles/Nav.styled.js';
+import { List, UserList, NavStyledContainer } from '../Styles/Nav.styled.js';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 
 const codeSample = `
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const NavStyledContainer = styled.div\`
     display: flex;
@@ -37,6 +38,24 @@ const List = styled.li\`
         &:hover {
             color: darkblue;
         }
+\`;
+
+const StyledLink = styled(Link)\`
+    text-decoration: none;
+    &:link {
+        text-decoration: none;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+    }
+    &:visited {
+        text-decoration: none;
+        color: black;
+        font-family: 'Bebas Neue', cursive;
+    }
+    &:hover {
+        color: darkblue;
+        font-family: 'Bebas Neue', cursive;
+    }
 \`;
 
 const Nav = () => {
@@ -86,6 +105,7 @@ const Navbars = () => {
                             </List>
                         </UserList>
                     </NavStyledContainer>
+                    <p>In order to use the StyledLink you'll need to install and utilize React Router</p>
                     <SyntaxHighlighter>
                         {codeSample}
                     </SyntaxHighlighter>
