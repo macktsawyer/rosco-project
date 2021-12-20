@@ -42,4 +42,10 @@ cursor: pointer;
             background: #d9db42;
         }
     }
+    &.darkButton {
+        background: #313438;
+        &:hover {
+            background: #1e2124;
+        }
+    }
 `;

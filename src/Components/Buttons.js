@@ -48,6 +48,12 @@ cursor: pointer;
             background: #d9db42;
         }
     }
+    &.darkButton {
+        background: #313438;
+        &:hover {
+            background: #1e2124;
+        }
+    }
 \`;
 
 const handleSubmit = () => {
@@ -80,6 +86,7 @@ const Buttons = () => {
                         <li><StyledButton className="greenButton"><h1>Button</h1></StyledButton></li>
                         <li><StyledButton className="purpleButton"><h1>Button</h1></StyledButton></li>
                         <li><StyledButton className="yellowButton"><h1>Button</h1></StyledButton></li>
+                        <li><StyledButton className="darkButton"><h1>Button</h1></StyledButton></li>
                     </InlineContainer>
                     <p style={{margin: "5px"}}>These are the basic buttons. If you want a different color you can easily change it with a className on the element and adding the color + Button. For example ' className="greenButton" '</p>
                     <SyntaxHighlighter>{buttonSample}</SyntaxHighlighter>
