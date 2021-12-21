@@ -14,7 +14,7 @@ const Home = () => {
                     <NavList><StyledLink to ="/About">About The Project</StyledLink></NavList>
                     <NavList>How To Get Involved</NavList>
                     <NavList>Contributors</NavList>
-                    <NavList>FAQ</NavList>
+                    <NavList><StyledLink to ="/FAQ">FAQ</StyledLink></NavList>
                     <NavList>Github</NavList>
                     <NavList>Support Us</NavList>
                 </SideUserList>

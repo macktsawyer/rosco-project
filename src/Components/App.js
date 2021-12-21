@@ -5,6 +5,7 @@ import Navbars from './Navbars';
 import Forms from './Forms';
 import About from './About';
 import Buttons from './Buttons';
+import FAQ from './FAQ';
 import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/Buttons" element={<Buttons />} />
                 <Route path="/Forms" element={<Forms />} />
                 <Route path="/About" element={<About />} />
+                <Route path="/FAQ" element={<FAQ />} />
             </Routes>
         </div>
     )
