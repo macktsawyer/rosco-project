@@ -21,13 +21,13 @@ const FAQ = () => {
             </SideNav>
             <StyledContainer>
                 <ContentStyled>
-                    <h2>What is this?</h2>
-                    <p>See the about the project page</p>
-                    <h2>How do I get involved?</h2>
+                    <h2 style={{fontFamily: "'Bebas Neue', cursive"}}>What is this?</h2>
+                    <p>The about page has more information but the React Open Source Components project, or ROSCo, is a reusable components library. The purpose is to provide the user with the ability to just copy, paste and go with a React component.</p>
+                    <h2 style={{fontFamily: "'Bebas Neue', cursive"}}>How do I get involved?</h2>
                     <p>See the How to get involved page</p>
-                    <h2>How do I see who has contributed?</h2>
+                    <h2 style={{fontFamily: "'Bebas Neue', cursive"}}>How do I see who has contributed?</h2>
                     <p>See the contributors page</p>
-                    <h2>Where can I see some documentation?</h2>
+                    <h2 style={{fontFamily: "'Bebas Neue', cursive"}}>Where can I see some documentation?</h2>
                     <p>See the documentation page</p>
                 </ContentStyled>
             </StyledContainer>
