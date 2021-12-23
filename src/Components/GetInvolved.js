@@ -5,12 +5,12 @@ import { WholeContainer } from '../Styles/WholeContainer.styled.js';
 import { StyledContainer } from '../Styles/Container.styled.js';
 import { ContentStyled } from '../Styles/Content.styled.js';
 
-const About = () => {
+const GetInvolved = () => {
     return (
         <WholeContainer>
             <SideNav>
                 <SideUserList>
-                <NavList>Documentation</NavList>
+                    <NavList>Documentation</NavList>
                     <NavList><StyledLink to ="/About">About The Project</StyledLink></NavList>
                     <NavList><StyledLink to ="/getInvolved">How To Get Involved</StyledLink></NavList>
                     <NavList>Contributors</NavList>
@@ -21,11 +21,11 @@ const About = () => {
             </SideNav>
             <StyledContainer>
                 <ContentStyled>
-                    <p style={{fontSize: "120%"}}>The React Open Source Components library is a free to use React Component resource collection. You, the user, are free to utilize all components on here in your own projects. In addition, the collection will be open to contributors to add their own components.</p>
+                    <h2>How to get involved</h2>
                 </ContentStyled>
             </StyledContainer>
         </WholeContainer>
     )
 }
 
-export default About
+export default GetInvolved

@@ -2,9 +2,10 @@ import React from 'react';
 import Nav from './Nav';
 import Home from './Home';
 import Navbars from './Navbars';
+import Buttons from './Buttons';
 import Forms from './Forms';
 import About from './About';
-import Buttons from './Buttons';
+import GetInvolved from './GetInvolved';
 import FAQ from './FAQ';
 import { Routes, Route } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path="/Buttons" element={<Buttons />} />
                 <Route path="/Forms" element={<Forms />} />
                 <Route path="/About" element={<About />} />
+                <Route path="/GetInvolved" element={<GetInvolved />} />
                 <Route path="/FAQ" element={<FAQ />} />
             </Routes>
         </div>
