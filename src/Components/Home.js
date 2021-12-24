@@ -10,7 +10,7 @@ const Home = () => {
         <WholeContainer>
             <SideNav>
                 <SideUserList>
-                    <NavList>Documentation</NavList>
+                    <NavList><StyledLink to ="/Documentation">Documentation</StyledLink></NavList>
                     <NavList><StyledLink to ="/About">About The Project</StyledLink></NavList>
                     <NavList><StyledLink to ="/getInvolved">How To Get Involved</StyledLink></NavList>
                     <NavList>Contributors</NavList>

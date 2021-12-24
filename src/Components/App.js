@@ -4,6 +4,7 @@ import Home from './Home';
 import Navbars from './Navbars';
 import Buttons from './Buttons';
 import Forms from './Forms';
+import Documentation from './Documentation';
 import About from './About';
 import GetInvolved from './GetInvolved';
 import FAQ from './FAQ';
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path="/Navbars" element={<Navbars />} />
                 <Route path="/Buttons" element={<Buttons />} />
                 <Route path="/Forms" element={<Forms />} />
+                <Route path="/Documentation" element={<Documentation />} />
                 <Route path="/About" element={<About />} />
                 <Route path="/GetInvolved" element={<GetInvolved />} />
                 <Route path="/FAQ" element={<FAQ />} />
