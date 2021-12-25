@@ -23,6 +23,8 @@ const Documentation = () => {
                 <ContentStyled>
                     <h2 style={{fontFamily: "'Bebas Neue', cursive"}}>Getting Started</h2>
                     <p>Just copy and paste the component you want!</p>
+                    <h3 style={{fontFamily: "'Bebas Neue', cursive"}}>Styled Components</h3>
+                    <p>You'll want to install styled components</p>
                 </ContentStyled>
             </StyledContainer>
         </WholeContainer>
