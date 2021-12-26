@@ -25,6 +25,8 @@ const Documentation = () => {
                     <p>Just copy and paste the component you want!</p>
                     <h3 style={{fontFamily: "'Bebas Neue', cursive"}}>Styled Components</h3>
                     <p>You'll want to install styled components</p>
+                    <h3 style={{fontFamily: "'Bebas Neue', cursive"}}>React Router</h3>
+                    <p>We also accomadate Router</p>
                 </ContentStyled>
             </StyledContainer>
         </WholeContainer>
