@@ -8,6 +8,7 @@ import Documentation from './Documentation';
 import About from './About';
 import GetInvolved from './GetInvolved';
 import FAQ from './FAQ';
+import Github from './Github';
 import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
                 <Route path="/About" element={<About />} />
                 <Route path="/GetInvolved" element={<GetInvolved />} />
                 <Route path="/FAQ" element={<FAQ />} />
+                <Route path="/Github" element={<Github />} />
             </Routes>
         </div>
     )
