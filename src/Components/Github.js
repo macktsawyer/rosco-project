@@ -22,7 +22,7 @@ const Github = () => {
             <StyledContainer>
                 <ContentStyled>
                     <h2 style={{fontFamily: "'Bebas Neue', cursive"}}>Getting Started</h2>
-                    <p>Github</p>
+                    <p><a href="https://github.com/macktsawyer/rosco-project">Github Link</a></p>
                 </ContentStyled>
             </StyledContainer>
         </WholeContainer>
