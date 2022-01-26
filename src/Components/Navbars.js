@@ -88,27 +88,29 @@ const Navbars = () => {
         <div>
             <h3>Basic Top Nav Bar</h3>
             <StyledContainer className="center">
-                <StyledContainer>
-                    <NavStyledContainer className="center">
-                        <UserList>
-                            <List>
-                                Home
-                            </List>
-                            <List>
-                                Page 1
-                            </List>
-                            <List>
-                                Page 2
-                            </List>
-                            <List>
-                                Page 3
-                            </List>
-                        </UserList>
-                    </NavStyledContainer>
-                    <p>In order to use the StyledLink you'll need to install and utilize React Router</p>
-                    <SyntaxHighlighter>
-                        {codeSample}
-                    </SyntaxHighlighter>
+                <StyledContainer style={{ margin: "25px" }}>
+                    <div style={{ margin: "25px" }}>
+                        <NavStyledContainer className="center">
+                            <UserList>
+                                <List>
+                                    Home
+                                </List>
+                                <List>
+                                    Page 1
+                                </List>
+                                <List>
+                                    Page 2
+                                </List>
+                                <List>
+                                    Page 3
+                                </List>
+                            </UserList>
+                        </NavStyledContainer>
+                        <p>In order to use the StyledLink you'll need to install and utilize React Router</p>
+                        <SyntaxHighlighter>
+                            {codeSample}
+                        </SyntaxHighlighter>
+                    </div>
                 </StyledContainer>
             </StyledContainer>
         </div>

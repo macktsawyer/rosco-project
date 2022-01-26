@@ -5,6 +5,7 @@ export const NavStyledContainer = styled.div`
 display: flex;
 justify-content: right;
 min-width: 100vw;
+margin: 10px;
     &.center {
         display: flex;
         justify-content: center;
